@@ -1,0 +1,27 @@
+{
+  "name": "api-mock-4-frontend",
+  "version": "1.0.0",
+  "description": "A simple api for frontend authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./database.json",
+    "start:api": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teixeira83/api-mock-4-frontend.git"
+  },
+  "author": "Rafael Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teixeira83/api-mock-4-frontend/issues"
+  },
+  "homepage": "https://github.com/teixeira83/api-mock-4-frontend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
